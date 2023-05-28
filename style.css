@@ -17,7 +17,7 @@ body {
 .link {
 	text-decoration: underline;
 	color: black;
-	font-size: 28px;
+	font-size: 24px;
 }
 
 .link-container {
@@ -57,8 +57,7 @@ body {
 }
 
 .carta {
-	height: 100vh;
-
+	padding-top: 20px;
 	background-color: pink;
 	display: flex;
 	justify-content: center;

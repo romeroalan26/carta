@@ -15,7 +15,8 @@ body {
 }
 
 .link {
-	text-decoration: underline;
+	text-decoration: none;
+	font-weight: bold;
 	color: black;
 	font-size: 24px;
 }
@@ -67,6 +68,14 @@ body {
 	border-radius: 20px;
 }
 
+.photo {
+	text-align: center;
+}
+
+.family {
+	max-width: 100%;
+}
+
 p {
 	font-size: 30px;
 }
@@ -75,8 +84,18 @@ h1 {
 	font-size: 40px;
 }
 
+#sobre-container {
+	height: max-content;
+	margin-top: 40px;
+}
+
+audio {
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+
 .carta-container {
-	padding: 15px;
+	padding: 20px;
 	width: 75%;
 	background-color: rgb(255, 255, 255);
 	border-radius: 20px;

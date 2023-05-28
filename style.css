@@ -13,6 +13,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: pink;
+	text-align: center;
 }
 
 .link {
@@ -99,7 +100,7 @@ audio {
 
 .audio-container {
 	position: absolute;
-	top: 10px;
+	top: 40px;
 }
 
 .carta-container {

@@ -17,7 +17,7 @@ body {
 .link {
 	text-decoration: underline;
 	color: black;
-	font-size: 21px;
+	font-size: 28px;
 }
 
 .link-container {
@@ -69,7 +69,11 @@ body {
 }
 
 p {
-	font-size: 24px;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 40px;
 }
 
 .carta-container {

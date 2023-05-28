@@ -7,6 +7,7 @@ html {
 
 body {
 	font-family: "Dancing Script", cursive;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -94,6 +95,11 @@ h1 {
 audio {
 	padding-bottom: 20px;
 	margin-top: 40px;
+}
+
+.audio-container {
+	position: absolute;
+	top: 10px;
 }
 
 .carta-container {

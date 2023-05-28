@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: pink;
+}
+
+.link {
+	text-decoration: underline;
+	color: black;
+	font-size: 18px;
+}
+
+.link-container {
+	position: absolute;
+	top: 33%;
+	right: 30%;
+	left: 35%;
+	padding: 6px;
+	border-radius: 10px;
+}
+
+.sobre-box {
+	position: relative;
+	width: 80%;
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.sobre-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sobre,
+.heart {
+	max-height: 400px;
+	max-width: 100%;
+	width: auto;
+	border-radius: 20px;
+}
+
+.carta {
+	height: 100vh;
+
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-position: center;
+	border-radius: 20px;
+}
+
+.carta-container {
+	padding: 15px;
+	width: 75%;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}

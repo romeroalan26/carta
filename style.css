@@ -6,8 +6,7 @@ html {
 }
 
 body {
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-family: "Dancing Script", cursive;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -18,7 +17,7 @@ body {
 .link {
 	text-decoration: underline;
 	color: black;
-	font-size: 18px;
+	font-size: 21px;
 }
 
 .link-container {
@@ -35,7 +34,7 @@ body {
 	width: 80%;
 	padding: 15px;
 	border-radius: 20px;
-	box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .sobre-container {
@@ -53,6 +52,10 @@ body {
 	border-radius: 20px;
 }
 
+.heart-container {
+	height: 100vh;
+}
+
 .carta {
 	height: 100vh;
 
@@ -65,10 +68,14 @@ body {
 	border-radius: 20px;
 }
 
+p {
+	font-size: 24px;
+}
+
 .carta-container {
 	padding: 15px;
 	width: 75%;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	border-radius: 20px;
-	box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
 }
